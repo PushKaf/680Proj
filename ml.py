@@ -102,10 +102,10 @@ def grid_search(vec, X_train, y_train, cv):
     }
 
     _models = {
-        # "Logistic Regression": LogisticRegression(),
+        "Logistic Regression": LogisticRegression(),
         "Bernoulli NB": BernoulliNB(),
-        # "Random Forest": RandomForestClassifier(),
-        # "XGBoost": XGBClassifier()
+        "Random Forest": RandomForestClassifier(),
+        "XGBoost": XGBClassifier()
     }
 
     for k, m in _models.items():
