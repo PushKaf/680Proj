@@ -201,6 +201,6 @@ if __name__ == "__main__":
     grid_search("tfidf", tfidf_X_train, tfidf_y_train, cv=3)
     grid_search("count", count_X_train, count_y_train, cv=3)
 
-    print("Testing Models, BIG BIG BOOM BOOM")
-    test_all_models()
+    # print("Testing Models, BIG BIG BOOM BOOM")
+    # test_all_models()
 
