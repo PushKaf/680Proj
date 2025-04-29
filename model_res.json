@@ -1,0 +1,34 @@
+{
+    "count_Bernoulli NB_searched_model": {
+        "accuracy": 0.7736474606922188,
+        "precision": 0.7986473733878579,
+        "recall": 0.90675,
+        "f1": 0.8492724535875564,
+        "confusion_matrix": [
+            [
+                5413,
+                6401
+            ],
+            [
+                2611,
+                25389
+            ]
+        ]
+    },
+    "tfidf_Bernoulli NB_searched_model": {
+        "accuracy": 0.7736474606922188,
+        "precision": 0.7986473733878579,
+        "recall": 0.90675,
+        "f1": 0.8492724535875564,
+        "confusion_matrix": [
+            [
+                5413,
+                6401
+            ],
+            [
+                2611,
+                25389
+            ]
+        ]
+    }
+}
