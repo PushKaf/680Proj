@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+scikit-learn-intelex
+xgboost
+joblib
+tensorflow==2.15.0
+tensorflow-text==2.15.0
+transformers
+datasets
+nltk
+contractions
+requests
+
+# Optional for environment patching
+keras==2.15.0  # If needed explicitly for TF compatibility
